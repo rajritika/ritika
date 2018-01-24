@@ -1,0 +1,174 @@
+Python 3.6.3 (default, Oct  3 2017, 21:45:48) 
+[GCC 7.2.0] on linux
+Type "copyright", "credits" or "license()" for more information.
+>>> print ritika
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(ritika)?
+>>> print ('ritika')
+ritika
+>>> print ("ritika")
+ritika
+>>> a=10
+>>> b=20
+>>> c=a+b
+>>> print ("c")
+c
+>>> print c
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(c)?
+>>> print (c)
+30
+>>> a=50
+>>> b=30
+>>> c=a-b
+>>> print(c)
+20
+>>> a=44
+>>> b=26
+>>> C=a/b
+>>> print (c)
+20
+>>> a=10
+>>> b=56
+>>> c=a*b
+>>> print(c)
+560
+>>> a=96
+>>> b=56
+>>> c=b-a
+>>> print(c)
+-40
+>>> a=20
+>>> b=20
+>>> c=a<b
+>>> print(c)
+False
+>>> a=50
+>>> b=40
+>>> c=(a=b)
+SyntaxError: invalid syntax
+>>> a=50
+>>> b=40
+>>> c=a>b
+SyntaxError: multiple statements found while compiling a single statement
+>>> a=20
+>>> b=30
+>>> c=a>b
+>>> print(c)
+False
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+50
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+50
+20
+19.0
+2925
+False
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+50
+20
+19.0
+2925
+False
+True
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+50
+20
+19.0
+2925
+False
+True
+Traceback (most recent call last):
+  File "/home/cs2017a209/1.py", line 28, in <module>
+    c=a+b
+TypeError: unsupported operand type(s) for +: 'builtin_function_or_method' and 'builtin_function_or_method'
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+50
+20
+19.0
+2925
+False
+True
+10
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+50
+20
+19.0
+2925
+False
+True
+10
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+50
+20
+19.0
+2925
+False
+True
+10
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+50
+20
+19.0
+2925
+False
+True
+10
+======================= RESTART: /home/cs2017a209/1.py =======================
+ritika
+50
+20
+19.0
+2925
+False
+True
+enter a's value10
+enter b's value20
+1020
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+enter a value10
+enter b value20
+30
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+enter a value2.3
+Traceback (most recent call last):
+  File "/home/cs2017a209/1.py", line 1, in <module>
+    a=int(input("enter a value"))
+ValueError: invalid literal for int() with base 10: '2.3'
+>>> 2.5
+2.5
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+enter a value1.5
+Traceback (most recent call last):
+  File "/home/cs2017a209/1.py", line 1, in <module>
+    a=int(input("enter a value"))
+ValueError: invalid literal for int() with base 10: '1.5'
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+enter a value10.5
+enter b value20.3
+30.8
+>>> 
+======================= RESTART: /home/cs2017a209/1.py =======================
+enter a value25.6
+enter b value23.1
+48.7
+2.5
+>>> 
