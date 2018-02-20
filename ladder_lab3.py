@@ -1,7 +1,7 @@
 import random
 count=0
 while (count<=100):
-    player1=input("press 'r' to roll a dice: ")
+    player1=input("press r to roll a dice: ")
     if (player1=='r'):
         r=random.randint(1,6)
         count=count+r
